@@ -49,7 +49,8 @@ def generate_launch_description():
             "--parity", parity,
             "--databits", databits,
             "--serlogfile", serlogfile
-        ]
+        ],
+        respawn=True
     )
 
     return LaunchDescription([

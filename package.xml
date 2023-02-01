@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+    <name>ntripclient_ros2</name>
+    <version>1.51.0</version>
+    <description>A simple wrapper for the ntripclient</description>
+    <maintainer email="josh.owen@universalfieldrobots.com.au">Universal Field Robots</maintainer>
+    <license>GPL v2</license>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <export>
+        <build_type>cmake</build_type>
+    </export>
+</package>

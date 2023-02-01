@@ -1,0 +1,3 @@
+[submodule "ntripclient"]
+	path = ntripclient
+	url = git@github.com:universal-field-robots/ntripclient.git
